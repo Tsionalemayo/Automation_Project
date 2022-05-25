@@ -1,0 +1,48 @@
+[ {
+  "buildOrder" : 11,
+  "reportUrl" : "http://localhost:8080/job/Barbershop_web_testing/11/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:8080/job/Barbershop_web/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 57962892
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:8080/job/Barbershop_web/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 604599
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:8080/job/Barbershop_web/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 227425
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:8080/job/Barbershop_web/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 10872
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:8080/job/Barbershop_web/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 12129
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:8080/job/Barbershop_web/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2253717
+  }
+} ]
