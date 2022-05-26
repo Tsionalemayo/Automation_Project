@@ -89,34 +89,5 @@ class TestLogin(Base):
         except Exception as e:
             allure.attach(driver.get_screenshot_as_png(),name="Error screenshot",attachment_type=AttachmentType.PNG)
 
-    def test_git(self):
-        driver = self.driver
-        login = LoginPage(driver)
-        # WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,login.login_button))).click()
-        login.click_login_button()
-        login.enter_email("tsiona@gmail.com")
-        login.enter_password('123456')
-        login.click_singIn()
-
-        value = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//button[contains(text(),'log out')]"))).get_attribute("innerText")
-        try:
-            assert value == "log out"
-        except Exception as e:
-            allure.attach(driver.get_screenshot_as_png(),name="Error screenshot",attachment_type=AttachmentType.PNG)
 
 
-
-    def test_eli(self):
-        driver = self.driver
-        login = LoginPage(driver)
-        # WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,login.login_button))).click()
-        login.click_login_button()
-        login.enter_email("tsiona@gmail.com")
-        login.enter_password('123456')
-        login.click_singIn()
-
-        value = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//button[contains(text(),'log out')]"))).get_attribute("innerText")
-        try:
-            assert value == "log out"
-        except Exception as e:
-            allure.attach(driver.get_screenshot_as_png(),name="Error screenshot",attachment_type=AttachmentType.PNG)
