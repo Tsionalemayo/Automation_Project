@@ -106,7 +106,7 @@ class TestLogin(Base):
 
 
 
-    def test_tsiona(self):
+    def test_eli(self):
         driver = self.driver
         login = LoginPage(driver)
         # WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH,login.login_button))).click()
